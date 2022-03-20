@@ -1,0 +1,48 @@
+.div_body{
+    background-color: rgb(202, 199, 196);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_div{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.form_div h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.form_div .int-n{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.377);
+    height: 40px;
+    padding-left: 10px;
+}
+.int-lg{
+    width: 100%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.377);
+    height: 40px;
+    padding-left: 10px;
+}
+.int-rd{
+    margin-top: 15px;
+    margin-left: 8px;
+    font-weight: 700;
+}
+input:focus{
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.377);
+}
+.btn_regs{
+    width: 40%;
+    height: 40px;
+}
+.btn_regs:hover{
+    transform: scale(1.1);
+}

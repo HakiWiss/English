@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    text-decoration: none;
+}
+html,body{
+    height: 95%;
+}
+.title_logo img{
+    width: 15%;
+    
+}
+.title_logo {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(10, 110, 204);
+    width: 20%;
+}
+.title_logo:hover{
+    color: rgb(10, 110, 204);
+    
+}
+.head_div{
+    color: black;
+}
+.head_div li a:hover{
+transform: scale(1.1);
+border-bottom:  2px solid aqua;
+
+margin-right: 10px;
+margin-left: 10px;
+}
+
+#hero{
+    background-color: rgba(124, 130, 133, 0.438);
+}
+#hero h1{
+    font-weight: 700;
+}
+#hero p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn_start{
+    margin-left: 40%;
+    width: 150px;
+    height: 50px;
+}
+.btn_start:hover{
+    transform: scale(1.1);
+    background-color: rgb(11, 78, 179);
+    color: white;
+}
+.section_2{
+    background-color: rgba(219, 223, 224, 0.438);
+}
+.select_li{
+    background-color: aquamarine;
+    margin-right: 10px;
+    color: black;
+}
+
+
